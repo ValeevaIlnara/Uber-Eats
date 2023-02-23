@@ -1,0 +1,89 @@
+@media screen and (max-width: 767px) {
+    .upupup-btn:active {
+        background: #59bd5a;
+    }
+    html {
+        scroll-behavior: smooth;
+    } 
+    .card-item:active {
+        background: #F2F2F2;
+    }
+    .food-card:active {
+        background: #F2F2F2;
+    }   
+    .card-photo:active {
+        transform: scale(1.08);
+    }
+    .card-item {
+        overflow: hidden;
+    }
+    .tractir-rectangle:active {
+        transform: scale(1.08);
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .upupup-btn:active {
+        background: #59bd5a;
+    }
+    html {
+        scroll-behavior: smooth;
+    }
+    .menu-item:active {
+        color: #327430;
+    }
+    .card-item:active {
+        background: #F2F2F2;
+    }
+    .food-card:active {
+        background: #F2F2F2;
+    }
+    .card-photo:active {
+        transform: scale(1.08);
+    }
+    .card-item {
+        overflow: hidden;
+    }
+    .tractir-rectangle:active {
+        transform: scale(1.08);
+    }
+}
+@media screen and (min-width: 992px) {
+    .upupup-btn:hover {
+        background: #59bd5a;
+    }
+    .upupup-btn:active {
+        background: #59bd5a;
+    }
+    html {
+        scroll-behavior: smooth;
+    }
+    .card-item:hover {
+        background: #F2F2F2;
+    }
+    .food-card:hover {
+        background: #F2F2F2;
+    }
+    .menu-item:hover {
+        color: #327430;
+    }
+    .card-photo {
+        transition: all 0.3s;
+    }
+    .card-photo:hover {
+        transform: scale(1.08);
+    }
+    .card-item {
+        overflow: hidden;
+    }
+    .tractir-rectangle {
+        transition: all 0.3s;
+    }
+    .tractir-rectangle:hover {
+        transform: scale(1.08);
+    }
+}
+
+
+
+
